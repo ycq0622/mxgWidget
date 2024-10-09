@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>qml;cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>qrc;rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Translation Files">
+      <UniqueIdentifier>{639EADAA-A684-42e4-A9AD-28FC9BCB8F7C}</UniqueIdentifier>
+      <Extensions>ts</Extensions>
+    </Filter>
+    <Filter Include="Header Files\private">
+      <UniqueIdentifier>{47669fae-d388-49cf-a8ab-b203e596c7ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\private">
+      <UniqueIdentifier>{0654e767-da95-422d-945f-e42104cfc24a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\common">
+      <UniqueIdentifier>{0fd02e3a-2633-42b8-96b3-dd6c6b51b7dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\components">
+      <UniqueIdentifier>{2dbd9e7e-1163-488b-8a91-16a1aba07fca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\components">
+      <UniqueIdentifier>{70c4ef44-b8fc-4958-bd37-04f8da1249d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\components\private">
+      <UniqueIdentifier>{206f44f5-a80d-40ae-9209-f79aa2957be8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\components\private">
+      <UniqueIdentifier>{2dfaf7da-fec4-4250-90ae-2540adec89cb}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MxgAppBar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MxgAppBarPrivate.cpp">
+      <Filter>Source Files\private</Filter>
+    </ClCompile>
+    <ClCompile Include="MxgToolButton.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MxgToolButtonPrivate.cpp">
+      <Filter>Source Files\private</Filter>
+    </ClCompile>
+    <ClCompile Include="MxgToolButtonStyle.cpp">
+      <Filter>Header Files\components</Filter>
+    </ClCompile>
+    <ClCompile Include="MxgToolButtonStyle.cpp">
+      <Filter>Source Files\components</Filter>
+    </ClCompile>
+    <ClCompile Include="MxgTheme.cpp">
+      <Filter>Header Files\components</Filter>
+    </ClCompile>
+    <ClCompile Include="MxgTheme.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MxgThemePrivate.cpp">
+      <Filter>Header Files\components\private</Filter>
+    </ClCompile>
+    <ClCompile Include="MxgThemePrivate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="MxgAppBar.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="MxgAppBarPrivate.h">
+      <Filter>Header Files\private</Filter>
+    </QtMoc>
+    <QtMoc Include="MxgToolButtonPrivate.h">
+      <Filter>Header Files\private</Filter>
+    </QtMoc>
+    <QtMoc Include="MxgToolButton.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="def.hpp">
+      <Filter>Header Files\common</Filter>
+    </QtMoc>
+    <QtMoc Include="MxgToolButtonStyle.h">
+      <Filter>Header Files\components</Filter>
+    </QtMoc>
+    <QtMoc Include="MxgTheme.h">
+      <Filter>Header Files\components</Filter>
+    </QtMoc>
+    <QtMoc Include="MxgThemePrivate.h">
+      <Filter>Header Files\components\private</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.hpp">
+      <Filter>Header Files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="singleton.hpp">
+      <Filter>Header Files\common</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <QtRcc Include="icon.qrc">
+      <Filter>Resource Files</Filter>
+    </QtRcc>
+  </ItemGroup>
+</Project>
